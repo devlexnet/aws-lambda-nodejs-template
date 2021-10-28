@@ -1,4 +1,4 @@
-# lambda-nodejs14.x
+# aws-lambda-nodejs-template
 
 This repository contains source code and supporting files for a AWS Lambda function that you can run locally with the SAM CLI (e.g. For dev and test purposes) or deploy to AWS S3 bucket as zipped file, this is done through a circleci pipeline. It includes the following files and folders.
 
