@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  lambda-nodejs14.x
+
+  Sample SAM Template for lambda-nodejs14.x
+  
+Globals:
+  Function:
+    Timeout: 60
+
+Resources:
+  LambdaFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      PackageType: Image
+      Events:
+        POST:
+          Type: Api
+          Properties:
+            Path: /api
+            Method: get
+    Metadata:
+      DockerTag: nodejs14.x-v1
+      DockerContext: ./api
+      Dockerfile: Dockerfile
+
