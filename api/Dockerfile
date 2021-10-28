@@ -1,6 +1,6 @@
 FROM public.ecr.aws/lambda/nodejs:14
 
-COPY function.js package.json ./
+COPY function.js package.json package-lock.json ./
 
 RUN npm install
 

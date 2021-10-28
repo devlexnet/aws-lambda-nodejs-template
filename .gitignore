@@ -131,3 +131,8 @@ $RECYCLE.BIN/
 # Pem files
 *.pem
 .pem
+
+
+# .aws-sam
+.aws-sam
+.aws-sam/*

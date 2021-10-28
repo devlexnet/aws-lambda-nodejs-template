@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "NodeJS AWS Lambda function template",
   "main": "function.js",
-  "repository": "",
+  "repository": "https://github.com/devlexnet/aws-lambda-nodejs-template",
   "author": "https://devlex.net",
   "license": "MIT",
   "dependencies": {
